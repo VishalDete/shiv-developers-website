@@ -1,0 +1,604 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  overflow-x:hidden ;
+}
+body{
+  background: #1f1c1c;
+
+  background-repeat: no-repeat;
+  padding: 0%;
+  margin: 0%;
+ 
+}
+.nav{
+  background-color: rgb(15, 14, 14);
+  position: sticky;
+  overflow-y: hidden;
+  border-bottom: 2px solid whitesmoke;
+}
+ul{
+  display: flex;
+
+  
+}
+li {
+
+  padding: 1%;
+  overflow-y: hidden;
+
+
+}
+li a{
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+margin-left: 89px;
+text-align: center;
+color: aliceblue;
+position: relative;
+}
+ul a:hover{
+
+cursor: pointer;
+color: rgb(255, 54, 44);
+}
+.logo img{
+  width: 30px;
+  height: 29px;
+position: absolute;
+padding-left: 92%;
+align-items: center;
+padding-top: 1%;
+}
+
+.first img{
+border: 2px white solid;
+margin: 5% 35%;
+  position: relative;
+ transition: all ease 1s;
+overflow: hidden;
+border-radius: 5px;
+animation-duration: 3s;
+animation-name: slidein;
+
+
+}
+
+
+
+.first img:hover{
+  scale: 1.1;
+  border: 5px groove rgb(255, 40, 40);
+}
+.first span a{
+  color: yellow;
+  position: relative;
+margin-left: 42%;
+font-size: 33px;
+text-decoration: none;
+bottom: 32px;
+animation-duration: 3s;
+animation-name: fadein;
+}
+.first span a:hover{
+color: rgb(255, 31, 31);
+}
+.pone{
+  color: aliceblue;
+  text-align: center;
+  font-size: 23px;
+  animation-duration: 3s;
+animation-name: pone;
+}
+
+@keyframes slidein {
+  from{
+    margin-left: 0%;
+
+  }
+  to{
+
+    margin-left: 35%;
+  }
+}
+
+
+
+@keyframes fadein {
+  from{
+    
+opacity: 0;
+  }
+  to{
+
+  opacity: 10;
+  }
+}
+
+
+@keyframes pone{
+  from{
+    
+opacity: 0;
+  }
+  to{
+
+opacity: 10;
+  }
+}
+
+
+
+
+
+
+
+
+
+@keyframes two {
+  from{
+    margin-left: 0%;
+
+  }
+  to{
+
+    margin-left: 35%;
+  }
+}
+
+
+
+@keyframes twoin {
+  from{
+    
+opacity: 0;
+  }
+  to{
+
+  opacity: 10;
+  }
+}
+
+
+@keyframes ptwo{
+  from{
+    
+opacity: 0;
+  }
+  to{
+
+opacity: 10;
+  }
+}
+
+
+
+
+
+
+.sec img{
+  border: 2px white solid;
+margin: 5% 35%;
+  position: relative;
+ transition: all ease 1s;
+overflow: hidden;
+border-radius: 5px;
+animation-duration: 7s;
+animation-name: two;
+
+
+}
+.sec img:hover{
+  scale: 1.1;
+  border: 5px groove rgb(255, 35, 35);
+}
+.sec span a{
+  color: yellow;
+  position: relative;
+margin-left: 42%;
+font-size: 33px;
+text-decoration: none;
+bottom: 32px;
+animation-duration: 4s;
+animation-name: twoin;
+
+}
+.ptwo{
+  color: aliceblue;
+  text-align: center;
+  font-size: 23px;
+  animation-duration: 5s;
+animation-name: ptwo;
+
+}
+.sec span a:hover{
+  color: rgb(255, 45, 45);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @keyframes thr {
+    from{
+      margin-left: 0%;
+  
+    }
+    to{
+  
+      margin-left: 35%;
+    }
+  }
+  
+  
+  
+  @keyframes thrin {
+    from{
+      
+  opacity: 0;
+    }
+    to{
+  
+    opacity: 10;
+    }
+  }
+  
+  
+  @keyframes pthr{
+    from{
+      
+  opacity: 0;
+    }
+    to{
+  
+  opacity: 10;
+    }
+  }
+  
+
+
+  .the img{
+    border: 2px white solid;
+  margin: 5% 35%;
+    position: relative;
+   transition: all ease 1s;
+  overflow: hidden;
+  border-radius: 5px;
+  animation-duration: 8s;
+  animation-name: thr;
+  }
+  .the img:hover{
+    scale: 1.1;
+    border: 5px groove rgb(230, 8, 8);
+  }
+  .the span a{
+    color: yellow;
+    position: relative;
+  margin-left: 42%;
+  font-size: 33px;
+  text-decoration: none;
+  bottom: 32px;
+  animation-duration: 5s;
+  animation-name: thrin;
+  }
+  .pthe{
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
+    animation-duration: 6s;
+    animation-name: pthr;
+  }
+  .the span a:hover{
+    color: rgb(255, 47, 32);
+    }
+
+
+
+
+
+
+
+    
+
+  .for img{
+    border: 2px white solid;
+  margin: 5% 35%;
+    position: relative;
+   transition: all ease 1s;
+  overflow: hidden;
+  border-radius: 5px;
+  animation-duration: 8s;
+    animation-name: for;
+  }
+  .for img:hover{
+    scale: 1.1;
+    border: 5px groove rgb(230, 8, 8);
+  }
+  .for span a{
+    color: yellow;
+    position: relative;
+  margin-left: 42%;
+  font-size: 33px;
+  text-decoration: none;
+  bottom: 32px;
+  animation-duration: 6s;
+    animation-name: tfor;
+  }
+  .pfor{
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
+    animation-duration: 5s;
+    animation-name: pfor;
+  }
+  .for span a:hover{
+    color: rgb(255, 34, 26);
+    }
+
+
+
+
+
+    @keyframes for {
+      from{
+        margin-left: 0%;
+    
+      }
+      to{
+    
+        margin-left: 35%;
+      }
+    }
+    
+    
+    
+    @keyframes tfor {
+      from{
+        
+    opacity: 0;
+      }
+      to{
+    
+      opacity: 10;
+      }
+    }
+    
+    
+    @keyframes pfor{
+      from{
+        
+    opacity: 0;
+      }
+      to{
+    
+    opacity: 10;
+      }
+    }
+    
+  
+
+
+
+    
+  .fiv img{
+    border: 2px white solid;
+  margin: 5% 35%;
+    position: relative;
+   transition: all ease 1s;
+  overflow: hidden;
+  border-radius: 5px;
+  animation-name: fiv;
+  animation-duration: 10s;
+  }
+  .fiv img:hover{
+    scale: 1.1;
+    border: 5px groove rgb(230, 8, 8);
+  }
+  .fiv span a{
+    color: yellow;
+    position: relative;
+  margin-left: 42%;
+  font-size: 33px;
+  text-decoration: none;
+  bottom: 32px;
+  animation-name: fivn;
+  animation-duration: 7s;
+  }
+  .pfiv{
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
+    animation-name: pfiv;
+    animation-duration: 7s;
+  }
+  .fiv span a:hover{
+    color: rgb(255, 36, 36);
+    }
+
+    
+
+
+
+
+
+
+    
+
+  @keyframes fiv {
+    from{
+      margin-left: 0%;
+  
+    }
+    to{
+  
+      margin-left: 35%;
+    }
+  }
+  
+  
+  
+  @keyframes fivn {
+    from{
+      
+  opacity: 0;
+    }
+    to{
+  
+    opacity: 10;
+    }
+  }
+  
+  
+  @keyframes pfiv{
+    from{
+      
+  opacity: 0;
+    }
+    to{
+  
+  opacity: 10;
+    }
+  }
+  
+
+
+
+
+     
+  .six img{
+    border: 2px white solid;
+  margin: 5% 35%;
+    position: relative;
+   transition: all ease 1s;
+  overflow: hidden;
+  border-radius: 5px;
+  animation-name: six;
+  animation-duration: 12s;
+  }
+  .six img:hover{
+    scale: 1.1;
+    border: 5px groove rgb(230, 8, 8);
+  }
+  .six span a{
+    color: yellow;
+    position: relative;
+  margin-left: 42%;
+  font-size: 33px;
+  text-decoration: none;
+  bottom: 32px;
+  animation-name: sixa;
+  animation-duration: 7s;
+  
+  }
+  .psix{
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;
+    animation-name: sixp;
+    animation-duration: 8s;
+  }
+  .six span a:hover{
+    color: rgb(255, 35, 35);
+    }
+
+
+
+    @keyframes six {
+      from{
+        margin-left: 0%;
+    
+      }
+      to{
+    
+        margin-left: 35%;
+      }
+    }
+    
+    
+    
+    @keyframes sixp {
+      from{
+        
+    opacity: 0;
+      }
+      to{
+    
+      opacity: 10;
+      }
+    }
+    
+    
+    @keyframes sixa{
+      from{
+        
+    opacity: 0;
+      }
+      to{
+    
+    opacity: 10;
+      }
+    }
+    .m{
+      margin-top: 7%;
+  
+     width: 100%;
+     ;
+    }
+  
+  
+    .about{
+      border: 2px solid rgba(244, 223, 223, 0.203);
+      width: 95%;
+      height: 410px;
+      margin-left: 2%;
+      margin-top: 22px;
+      position: absolute;
+      background-color: rgba(231, 231, 231, 0.052);
+
+    }
+    .sy{
+color: rgb(255, 3, 53);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 25px;
+position:absolute ;
+margin-top: 40px;
+
+    }
+  .sy:hover{
+  box-shadow: rgb(255, 7, 7) 2px 2px 2px;
+color: aliceblue;
+  }
+  .call p{
+    color: aliceblue;
+margin-left: 62px;
+margin-top: 47px;
+  }
+  .twi p{
+    color: aliceblue;
+margin-left: 62px;
+margin-top: 47px;
+  }
+
+
+  .fac p{
+    color: aliceblue;
+margin-left: 85%;
+margin-top: 14%;
+  }
+
+  .inst p{
+    color: aliceblue;
+margin-left: 85%;
+margin-top: 7%;
+  }
